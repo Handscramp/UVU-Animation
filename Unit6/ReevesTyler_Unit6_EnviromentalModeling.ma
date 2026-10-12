@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: ReevesTyler_Unit6_EnviromentalModeling.ma
-//Last modified: Sun, Oct 11, 2026 09:57:45 PM
+//Last modified: Sun, Oct 11, 2026 09:58:35 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,18 +11,18 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "286E0B33-4450-FAEB-12B9-7AA867429CD5";
+fileInfo "UUID" "B34AA460-4016-A58B-ECB7-08B8111F721D";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "D3AA562B-4659-C0E2-DF83-6EAE7371C741";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 116.64389724313122 678.56104862042196 -283.63742070711771 ;
+	setAttr ".t" -type "double3" -97.95620919001415 265.16275537095305 -1020.866459103731 ;
 	setAttr ".r" -type "double3" -28.538352762680383 -3956.200000007213 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "55C10CD3-4E44-9B20-F0A3-6E87AB747F7A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 1429.950919583287;
+	setAttr ".coi" 573.72683828712934;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
